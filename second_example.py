@@ -30,6 +30,6 @@ while True:
             # Actually store the image in memory in binary 
             image.save(bio, format="PNG")
             # Use that image data in order to 
-            window["-IMAGE-"].update(filename=filename)
+            window["-IMAGE-"].update(data=bio.getvalue())
 
 window.close()

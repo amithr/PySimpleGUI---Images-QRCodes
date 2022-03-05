@@ -2,7 +2,7 @@ import PySimpleGUI as sg
 import os
 
 layout = [
-            [sg.Image(filename='test_image.png', size=(300, 300))],
+            [sg.Image(filename='test_image_2.png')],
             [sg.Button('Exit')]
         ]
 
